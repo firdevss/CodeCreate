@@ -1,0 +1,2 @@
+# CodeCreate
+LeetCode Easy solution 

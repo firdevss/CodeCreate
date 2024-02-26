@@ -1,5 +1,6 @@
 package com.leetcode.examples;
 
+import com.leetcode.examples.solutions.RemoveElement;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -12,7 +13,10 @@ public class ExamplesApplication {
 	}
 
 	public static void examples() {
-		System.out.println("fffffffffffffffffffffffffff");
+		System.out.println("Solutions: ");
+		System.out.println("Solution 27: ");
+		RemoveElement element = new RemoveElement();
+		element.removeElement(new int[]{0,1,2,2,3,0,4,2}, 2);
 	}
 
 }

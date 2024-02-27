@@ -13,7 +13,6 @@ public class RemoveElement {
                 newLength++;
             }
         }
-
         return newLength;
     }
 }
